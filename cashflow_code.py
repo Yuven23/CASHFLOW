@@ -5,9 +5,9 @@ import mysql.connector
 def connect_to_mysql():
     return mysql.connector.connect(
         host="localhost",
-        user="your_username",
-        password="your_password",
-        database="atm_database"
+        user="root",
+        password="recovery",
+        database="atm"
     )
 
 # Function to check account balance
