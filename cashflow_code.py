@@ -7,7 +7,7 @@ def connect_to_mysql():
         host="localhost",
         user="root",
         password="recovery",
-        database="atm"
+        database="test"
     )
 
 # Function to check account balance
